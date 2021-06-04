@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "430bf81f-a07d-423b-b733-0f985d78171c",
+		"name": "SpaceX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SpaceX",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Is response successful\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Validate that launch times are present in the response\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.date_utc).to.not.eql(null);\r",
+							"    pm.expect(jsonData.date_local).to.not.eql(null);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validate that rocket details are present\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.details).is.not.eq(null);\r",
+							"    pm.expect(jsonData.rocket).to.not.eq(null);\r",
+							"    pm.expect(jsonData.ships).to.not.eq(null);\r",
+							"    pm.expect(jsonData.capsule).to.not.eq(null);\r",
+							"    pm.expect(jsonData.payloads).to.not.eq(null);\r",
+							"    pm.expect(jsonData.cores).to.not.eq(null);\r",
+							"}); \r",
+							"\r",
+							"pm.test(\"Validate that flight number is numeric\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.flight_number).to.be.a('number');\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v4/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v4",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
