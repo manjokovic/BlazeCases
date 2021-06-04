@@ -1,0 +1,313 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622795556112' stop='1622795571888'>
+    <name>BlazeDemo Cases:</name>
+    <title>BlazeDemo Cases:</title>
+    <test-cases>
+        <test-case start='1622795557313' status='passed' stop='1622795565078'>
+            <name>Flight Search | {"from":"Philadelphia","to":"Dublin"}</name>
+            <title>Flight Search | {"from":"Philadelphia","to":"Dublin"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622795557350' status='passed' stop='1622795558832'>
+                    <name>I am on page "https://blazedemo.com/"</name>
+                    <title>I am on page "https://blazedemo.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795558833' status='passed' stop='1622795558887'>
+                    <name>I wait for element ".//h1", 30</name>
+                    <title>I wait for element ".//h1", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795558888' status='passed' stop='1622795558926'>
+                    <name>I see "Welcome to the Simple Travel Agency!"</name>
+                    <title>I see "Welcome to the Simple Travel Agency!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795558927' status='passed' stop='1622795559079'>
+                    <name>I select option ".//select[@name='fromPort']", "Philadelphia"</name>
+                    <title>I select option ".//select[@name='fromPort']", "Philadelphia"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795559079' status='passed' stop='1622795559223'>
+                    <name>I select option ".//select[@name='toPort']", "Dublin"</name>
+                    <title>I select option ".//select[@name='toPort']", "Dublin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795559224' status='passed' stop='1622795559911'>
+                    <name>I click ".//input[@type='submit']"</name>
+                    <title>I click ".//input[@type='submit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795559911' status='passed' stop='1622795559940'>
+                    <name>I wait in url "reserve.php"</name>
+                    <title>I wait in url "reserve.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795559940' status='passed' stop='1622795559979'>
+                    <name>I wait for element ".//*[contains(text(),'Flights from Philadelphia to Dublin')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'Flights from Philadelphia to Dublin')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795559979' status='passed' stop='1622795560742'>
+                    <name>I click "(.//input[@class='btn btn-small'])[last()]"</name>
+                    <title>I click "(.//input[@class='btn btn-small'])[last()]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795560742' status='passed' stop='1622795560750'>
+                    <name>I wait in url "purchase.php"</name>
+                    <title>I wait in url "purchase.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795560750' status='passed' stop='1622795560760'>
+                    <name>I wait for element ".//*[contains(text(),'has been reserved') and contains(text(),'Your flight from')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'has been reserved') and contains(text(),'Your flight from')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795560760' status='passed' stop='1622795561094'>
+                    <name>I fill field "inputName", "Test_User"</name>
+                    <title>I fill field "inputName", "Test_User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795561094' status='passed' stop='1622795561819'>
+                    <name>I fill field "address", "21, Stamford Bridge Street"</name>
+                    <title>I fill field "address", "21, Stamford Bridge Street"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795561820' status='passed' stop='1622795562147'>
+                    <name>I fill field "city", "London"</name>
+                    <title>I fill field "city", "London"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795562147' status='passed' stop='1622795562451'>
+                    <name>I fill field "state", "London"</name>
+                    <title>I fill field "state", "London"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795562451' status='passed' stop='1622795562643'>
+                    <name>I fill field "zipCode", "777"</name>
+                    <title>I fill field "zipCode", "777"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795562643' status='passed' stop='1622795562795'>
+                    <name>I select option "cardType", "American Express"</name>
+                    <title>I select option "cardType", "American Express"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795562795' status='passed' stop='1622795563227'>
+                    <name>I fill field "creditCardNumber", "090322323323222"</name>
+                    <title>I fill field "creditCardNumber", "090322323323222"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795563227' status='passed' stop='1622795563545'>
+                    <name>I fill field "creditCardMonth", "0101"</name>
+                    <title>I fill field "creditCardMonth", "0101"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795563545' status='passed' stop='1622795563811'>
+                    <name>I fill field "creditCardYear", "2022"</name>
+                    <title>I fill field "creditCardYear", "2022"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795563811' status='passed' stop='1622795564226'>
+                    <name>I fill field "nameOnCard", "Test User"</name>
+                    <title>I fill field "nameOnCard", "Test User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795564226' status='passed' stop='1622795565004'>
+                    <name>I click ".//input[@value='Purchase Flight']"</name>
+                    <title>I click ".//input[@value='Purchase Flight']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795565004' status='passed' stop='1622795565056'>
+                    <name>I wait in url "confirmation.php"</name>
+                    <title>I wait in url "confirmation.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795565056' status='passed' stop='1622795565078'>
+                    <name>I wait for element ".//*[contains(text(),'Thank you for your purchase today')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'Thank you for your purchase today')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622795565103' status='passed' stop='1622795571872'>
+            <name>Flight Search | {"from":"Portland","to":"Berlin"}</name>
+            <title>Flight Search | {"from":"Portland","to":"Berlin"}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622795565107' status='passed' stop='1622795565908'>
+                    <name>I am on page "https://blazedemo.com/"</name>
+                    <title>I am on page "https://blazedemo.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795565908' status='passed' stop='1622795565921'>
+                    <name>I wait for element ".//h1", 30</name>
+                    <title>I wait for element ".//h1", 30</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795565921' status='passed' stop='1622795565929'>
+                    <name>I see "Welcome to the Simple Travel Agency!"</name>
+                    <title>I see "Welcome to the Simple Travel Agency!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795565929' status='passed' stop='1622795566060'>
+                    <name>I select option ".//select[@name='fromPort']", "Portland"</name>
+                    <title>I select option ".//select[@name='fromPort']", "Portland"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795566060' status='passed' stop='1622795566196'>
+                    <name>I select option ".//select[@name='toPort']", "Berlin"</name>
+                    <title>I select option ".//select[@name='toPort']", "Berlin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795566196' status='passed' stop='1622795567176'>
+                    <name>I click ".//input[@type='submit']"</name>
+                    <title>I click ".//input[@type='submit']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567177' status='passed' stop='1622795567184'>
+                    <name>I wait in url "reserve.php"</name>
+                    <title>I wait in url "reserve.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567185' status='passed' stop='1622795567195'>
+                    <name>I wait for element ".//*[contains(text(),'Flights from Portland to Berlin')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'Flights from Portland to Berlin')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567195' status='passed' stop='1622795567904'>
+                    <name>I click "(.//input[@class='btn btn-small'])[last()]"</name>
+                    <title>I click "(.//input[@class='btn btn-small'])[last()]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567904' status='passed' stop='1622795567912'>
+                    <name>I wait in url "purchase.php"</name>
+                    <title>I wait in url "purchase.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567912' status='passed' stop='1622795567921'>
+                    <name>I wait for element ".//*[contains(text(),'has been reserved') and contains(text(),'Your flight from')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'has been reserved') and contains(text(),'Your flight from')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795567921' status='passed' stop='1622795568315'>
+                    <name>I fill field "inputName", "Test_User"</name>
+                    <title>I fill field "inputName", "Test_User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795568316' status='passed' stop='1622795569059'>
+                    <name>I fill field "address", "21, Stamford Bridge Street"</name>
+                    <title>I fill field "address", "21, Stamford Bridge Street"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795569060' status='passed' stop='1622795569315'>
+                    <name>I fill field "city", "London"</name>
+                    <title>I fill field "city", "London"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795569316' status='passed' stop='1622795569563'>
+                    <name>I fill field "state", "London"</name>
+                    <title>I fill field "state", "London"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795569563' status='passed' stop='1622795569763'>
+                    <name>I fill field "zipCode", "777"</name>
+                    <title>I fill field "zipCode", "777"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795569764' status='passed' stop='1622795569899'>
+                    <name>I select option "cardType", "American Express"</name>
+                    <title>I select option "cardType", "American Express"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795569899' status='passed' stop='1622795570331'>
+                    <name>I fill field "creditCardNumber", "090322323323222"</name>
+                    <title>I fill field "creditCardNumber", "090322323323222"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795570332' status='passed' stop='1622795570579'>
+                    <name>I fill field "creditCardMonth", "0101"</name>
+                    <title>I fill field "creditCardMonth", "0101"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795570579' status='passed' stop='1622795570816'>
+                    <name>I fill field "creditCardYear", "2022"</name>
+                    <title>I fill field "creditCardYear", "2022"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795570816' status='passed' stop='1622795571120'>
+                    <name>I fill field "nameOnCard", "Test User"</name>
+                    <title>I fill field "nameOnCard", "Test User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795571120' status='passed' stop='1622795571832'>
+                    <name>I click ".//input[@value='Purchase Flight']"</name>
+                    <title>I click ".//input[@value='Purchase Flight']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795571832' status='passed' stop='1622795571855'>
+                    <name>I wait in url "confirmation.php"</name>
+                    <title>I wait in url "confirmation.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622795571855' status='passed' stop='1622795571872'>
+                    <name>I wait for element ".//*[contains(text(),'Thank you for your purchase today')]"</name>
+                    <title>I wait for element ".//*[contains(text(),'Thank you for your purchase today')]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
